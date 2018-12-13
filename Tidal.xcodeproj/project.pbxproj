@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FFF0B1921C2903900DB72AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF0B1821C2903900DB72AC /* AppDelegate.swift */; };
+		3FFF0B1B21C2903900DB72AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF0B1A21C2903900DB72AC /* ViewController.swift */; };
+		3FFF0B1E21C2903900DB72AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFF0B1C21C2903900DB72AC /* Main.storyboard */; };
+		3FFF0B2021C2903B00DB72AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFF0B1F21C2903B00DB72AC /* Assets.xcassets */; };
+		3FFF0B2321C2903B00DB72AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFF0B2121C2903B00DB72AC /* LaunchScreen.storyboard */; };
+		3FFF0B2E21C2903B00DB72AC /* TidalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF0B2D21C2903B00DB72AC /* TidalTests.swift */; };
+		3FFF0B3921C2903B00DB72AC /* TidalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF0B3821C2903B00DB72AC /* TidalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FFF0B2A21C2903B00DB72AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FFF0B0D21C2903900DB72AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FFF0B1421C2903900DB72AC;
+			remoteInfo = Tidal;
+		};
+		3FFF0B3521C2903B00DB72AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FFF0B0D21C2903900DB72AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FFF0B1421C2903900DB72AC;
+			remoteInfo = Tidal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FFF0B1521C2903900DB72AC /* Tidal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tidal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFF0B1821C2903900DB72AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FFF0B1A21C2903900DB72AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FFF0B1D21C2903900DB72AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FFF0B1F21C2903B00DB72AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FFF0B2221C2903B00DB72AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FFF0B2421C2903B00DB72AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFF0B2921C2903B00DB72AC /* TidalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TidalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFF0B2D21C2903B00DB72AC /* TidalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidalTests.swift; sourceTree = "<group>"; };
+		3FFF0B2F21C2903B00DB72AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFF0B3421C2903B00DB72AC /* TidalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TidalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFF0B3821C2903B00DB72AC /* TidalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidalUITests.swift; sourceTree = "<group>"; };
+		3FFF0B3A21C2903B00DB72AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FFF0B1221C2903900DB72AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFF0B2621C2903B00DB72AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFF0B3121C2903B00DB72AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FFF0B0C21C2903900DB72AC = {
+			isa = PBXGroup;
+			children = (
+				3FFF0B1721C2903900DB72AC /* Tidal */,
+				3FFF0B2C21C2903B00DB72AC /* TidalTests */,
+				3FFF0B3721C2903B00DB72AC /* TidalUITests */,
+				3FFF0B1621C2903900DB72AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FFF0B1621C2903900DB72AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FFF0B1521C2903900DB72AC /* Tidal.app */,
+				3FFF0B2921C2903B00DB72AC /* TidalTests.xctest */,
+				3FFF0B3421C2903B00DB72AC /* TidalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FFF0B1721C2903900DB72AC /* Tidal */ = {
+			isa = PBXGroup;
+			children = (
+				3FFF0B1821C2903900DB72AC /* AppDelegate.swift */,
+				3FFF0B1A21C2903900DB72AC /* ViewController.swift */,
+				3FFF0B1C21C2903900DB72AC /* Main.storyboard */,
+				3FFF0B1F21C2903B00DB72AC /* Assets.xcassets */,
+				3FFF0B2121C2903B00DB72AC /* LaunchScreen.storyboard */,
+				3FFF0B2421C2903B00DB72AC /* Info.plist */,
+			);
+			path = Tidal;
+			sourceTree = "<group>";
+		};
+		3FFF0B2C21C2903B00DB72AC /* TidalTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FFF0B2D21C2903B00DB72AC /* TidalTests.swift */,
+				3FFF0B2F21C2903B00DB72AC /* Info.plist */,
+			);
+			path = TidalTests;
+			sourceTree = "<group>";
+		};
+		3FFF0B3721C2903B00DB72AC /* TidalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FFF0B3821C2903B00DB72AC /* TidalUITests.swift */,
+				3FFF0B3A21C2903B00DB72AC /* Info.plist */,
+			);
+			path = TidalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FFF0B1421C2903900DB72AC /* Tidal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFF0B3D21C2903B00DB72AC /* Build configuration list for PBXNativeTarget "Tidal" */;
+			buildPhases = (
+				3FFF0B1121C2903900DB72AC /* Sources */,
+				3FFF0B1221C2903900DB72AC /* Frameworks */,
+				3FFF0B1321C2903900DB72AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tidal;
+			productName = Tidal;
+			productReference = 3FFF0B1521C2903900DB72AC /* Tidal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FFF0B2821C2903B00DB72AC /* TidalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFF0B4021C2903B00DB72AC /* Build configuration list for PBXNativeTarget "TidalTests" */;
+			buildPhases = (
+				3FFF0B2521C2903B00DB72AC /* Sources */,
+				3FFF0B2621C2903B00DB72AC /* Frameworks */,
+				3FFF0B2721C2903B00DB72AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FFF0B2B21C2903B00DB72AC /* PBXTargetDependency */,
+			);
+			name = TidalTests;
+			productName = TidalTests;
+			productReference = 3FFF0B2921C2903B00DB72AC /* TidalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FFF0B3321C2903B00DB72AC /* TidalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFF0B4321C2903B00DB72AC /* Build configuration list for PBXNativeTarget "TidalUITests" */;
+			buildPhases = (
+				3FFF0B3021C2903B00DB72AC /* Sources */,
+				3FFF0B3121C2903B00DB72AC /* Frameworks */,
+				3FFF0B3221C2903B00DB72AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FFF0B3621C2903B00DB72AC /* PBXTargetDependency */,
+			);
+			name = TidalUITests;
+			productName = TidalUITests;
+			productReference = 3FFF0B3421C2903B00DB72AC /* TidalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FFF0B0D21C2903900DB72AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Nikolay N. Dutskinov";
+				TargetAttributes = {
+					3FFF0B1421C2903900DB72AC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3FFF0B2821C2903B00DB72AC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3FFF0B1421C2903900DB72AC;
+					};
+					3FFF0B3321C2903B00DB72AC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3FFF0B1421C2903900DB72AC;
+					};
+				};
+			};
+			buildConfigurationList = 3FFF0B1021C2903900DB72AC /* Build configuration list for PBXProject "Tidal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FFF0B0C21C2903900DB72AC;
+			productRefGroup = 3FFF0B1621C2903900DB72AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FFF0B1421C2903900DB72AC /* Tidal */,
+				3FFF0B2821C2903B00DB72AC /* TidalTests */,
+				3FFF0B3321C2903B00DB72AC /* TidalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FFF0B1321C2903900DB72AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFF0B2321C2903B00DB72AC /* LaunchScreen.storyboard in Resources */,
+				3FFF0B2021C2903B00DB72AC /* Assets.xcassets in Resources */,
+				3FFF0B1E21C2903900DB72AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFF0B2721C2903B00DB72AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFF0B3221C2903B00DB72AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FFF0B1121C2903900DB72AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFF0B1B21C2903900DB72AC /* ViewController.swift in Sources */,
+				3FFF0B1921C2903900DB72AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFF0B2521C2903B00DB72AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFF0B2E21C2903B00DB72AC /* TidalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFF0B3021C2903B00DB72AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFF0B3921C2903B00DB72AC /* TidalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FFF0B2B21C2903B00DB72AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FFF0B1421C2903900DB72AC /* Tidal */;
+			targetProxy = 3FFF0B2A21C2903B00DB72AC /* PBXContainerItemProxy */;
+		};
+		3FFF0B3621C2903B00DB72AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FFF0B1421C2903900DB72AC /* Tidal */;
+			targetProxy = 3FFF0B3521C2903B00DB72AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FFF0B1C21C2903900DB72AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FFF0B1D21C2903900DB72AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FFF0B2121C2903B00DB72AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FFF0B2221C2903B00DB72AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FFF0B3B21C2903B00DB72AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FFF0B3C21C2903B00DB72AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FFF0B3E21C2903B00DB72AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QG78DVQ32Q;
+				INFOPLIST_FILE = Tidal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NikiDutskinov.Tidal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FFF0B3F21C2903B00DB72AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QG78DVQ32Q;
+				INFOPLIST_FILE = Tidal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NikiDutskinov.Tidal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FFF0B4121C2903B00DB72AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QG78DVQ32Q;
+				INFOPLIST_FILE = TidalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NikiDutskinov.TidalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tidal.app/Tidal";
+			};
+			name = Debug;
+		};
+		3FFF0B4221C2903B00DB72AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QG78DVQ32Q;
+				INFOPLIST_FILE = TidalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NikiDutskinov.TidalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tidal.app/Tidal";
+			};
+			name = Release;
+		};
+		3FFF0B4421C2903B00DB72AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QG78DVQ32Q;
+				INFOPLIST_FILE = TidalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NikiDutskinov.TidalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tidal;
+			};
+			name = Debug;
+		};
+		3FFF0B4521C2903B00DB72AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QG78DVQ32Q;
+				INFOPLIST_FILE = TidalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NikiDutskinov.TidalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tidal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FFF0B1021C2903900DB72AC /* Build configuration list for PBXProject "Tidal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFF0B3B21C2903B00DB72AC /* Debug */,
+				3FFF0B3C21C2903B00DB72AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FFF0B3D21C2903B00DB72AC /* Build configuration list for PBXNativeTarget "Tidal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFF0B3E21C2903B00DB72AC /* Debug */,
+				3FFF0B3F21C2903B00DB72AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FFF0B4021C2903B00DB72AC /* Build configuration list for PBXNativeTarget "TidalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFF0B4121C2903B00DB72AC /* Debug */,
+				3FFF0B4221C2903B00DB72AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FFF0B4321C2903B00DB72AC /* Build configuration list for PBXNativeTarget "TidalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFF0B4421C2903B00DB72AC /* Debug */,
+				3FFF0B4521C2903B00DB72AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FFF0B0D21C2903900DB72AC /* Project object */;
+}
